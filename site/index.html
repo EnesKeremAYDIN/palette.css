@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>palette.css - Modular Theme-First CSS Variable System</title>
+    <meta name="description" content="A modular, theme-first CSS variable system that works with data-* attributes for easy theming">
+    
+    <!-- palette.css -->
+    <link rel="stylesheet" href="../palette.css">
+    <script src="../theme-loader.js"></script>
+    
+    <!-- Site styles -->
+    <link rel="stylesheet" href="styles/site.css">
+</head>
+<body data-theme="default" data-radius="soft" data-font="sans" data-shadow="soft" data-spacing="normal" data-anim="smooth">
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="logo">
+                    <h1>palette.css</h1>
+                    <p class="tagline">Modular theme-first CSS variable system</p>
+                </div>
+                <div class="hero-actions">
+                    <a href="https://github.com/EnesKeremAYDIN/palette.css" class="btn btn-primary" target="_blank">GitHub</a>
+                    <a href="#usage" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+            <div class="cdn-usage" style="margin-top:2rem;text-align:center;">
+                <h3>Use via CDN</h3>
+                <pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://eneskeremaydin.com.tr/palette.css/palette.css&quot;&gt;
+&lt;script src=&quot;https://eneskeremaydin.com.tr/palette.css/theme-loader.js&quot;&gt;&lt;/script&gt;</code></pre>
+                <p>Just add <b>data-*</b> attributes to your <code>&lt;body&gt;</code> and you are ready!</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Theme Switcher -->
+    <section class="theme-switcher">
+        <div class="container">
+            <h2>Live Theme Switcher</h2>
+            <p>Change themes instantly using the controls below:</p>
+            
+            <div class="theme-controls">
+                <div class="control-group">
+                    <label for="theme-select">Color Theme:</label>
+                    <select id="theme-select">
+                        <option value="default">Default</option>
+                        <option value="forest">Forest</option>
+                        <option value="ocean">Ocean</option>
+                        <option value="neon">Neon</option>
+                        <option value="pastel">Pastel</option>
+                        <option value="dark">Dark</option>
+                        <option value="sunset">Sunset</option>
+                    </select>
+                </div>
+                
+                <div class="control-group">
+                    <label for="radius-select">Border Radius:</label>
+                    <select id="radius-select">
+                        <option value="soft">Soft</option>
+                        <option value="sharp">Sharp</option>
+                        <option value="pill">Pill</option>
+                    </select>
+                </div>
+                
+                <div class="control-group">
+                    <label for="font-select">Font Family:</label>
+                    <select id="font-select">
+                        <option value="sans">Sans</option>
+                        <option value="serif">Serif</option>
+                        <option value="mono">Mono</option>
+                        <option value="fun">Fun</option>
+                        <option value="tech">Tech</option>
+                    </select>
+                </div>
+                
+                <div class="control-group">
+                    <label for="shadow-select">Shadow Style:</label>
+                    <select id="shadow-select">
+                        <option value="soft">Soft</option>
+                        <option value="deep">Deep</option>
+                        <option value="neumorphic">Neumorphic</option>
+                        <option value="none">None</option>
+                    </select>
+                </div>
+                
+                <div class="control-group">
+                    <label for="spacing-select">Spacing:</label>
+                    <select id="spacing-select">
+                        <option value="normal">Normal</option>
+                        <option value="compact">Compact</option>
+                        <option value="relaxed">Relaxed</option>
+                    </select>
+                </div>
+                
+                <div class="control-group">
+                    <label for="anim-select">Animation:</label>
+                    <select id="anim-select">
+                        <option value="smooth">Smooth</option>
+                        <option value="bounce">Bounce</option>
+                        <option value="pop">Pop</option>
+                        <option value="none">None</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Usage Guide -->
+    <section id="usage" class="usage-guide">
+        <div class="container">
+            <h2>Usage Guide</h2>
+            
+            <div class="usage-steps">
+                <div class="step">
+                    <h3>1. Include via CDN</h3>
+                    <p>Add these to your HTML <code>&lt;head&gt;</code>:</p>
+                    <pre><code>&lt;link rel="stylesheet" href="https://EnesKeremAYDIN.github.io/palette.css/palette/palette.css"&gt;
+&lt;script src="https://EnesKeremAYDIN.github.io/palette.css/palette/theme-loader.js"&gt;&lt;/script&gt;</code></pre>
+                </div>
+                
+                <div class="step">
+                    <h3>2. Set Theme Attributes</h3>
+                    <p>Add <code>data-*</code> attributes to your <code>&lt;body&gt;</code>:</p>
+                    <pre><code>&lt;body 
+  data-theme="forest"
+  data-radius="soft"
+  data-font="serif"
+  data-shadow="deep"
+  data-spacing="relaxed"
+  data-anim="smooth"
+&gt;</code></pre>
+                </div>
+                
+                <div class="step">
+                    <h3>3. Write HTML</h3>
+                    <p>Write your HTML normally – styles are automatically applied:</p>
+                    <pre><code>&lt;h1&gt;Your Heading&lt;/h1&gt;
+&lt;p&gt;Your paragraph text.&lt;/p&gt;
+&lt;button&gt;Click me&lt;/button&gt;
+&lt;input type="text" placeholder="Enter text"&gt;</code></pre>
+                </div>
+                
+                <div class="step">
+                    <h3>4. Advanced: Custom Themes</h3>
+                    <p>Create your own theme by adding a CSS file to <code>palette/palettes/colors/</code> and set <code>data-theme</code> to your theme name.</p>
+                    <pre><code>/* palette/palettes/colors/mybrand.css */
+:root {
+  --bg: #f8f9fa;
+  --text: #212529;
+  --primary: #6f42c1;
+  --primary-hover: #5a32a3;
+  --on-primary: #fff;
+}</code></pre>
+                    <pre><code>&lt;body data-theme="mybrand"&gt;</code></pre>
+                </div>
+            </div>
+            <div class="contribute" style="margin-top:2rem;text-align:center;">
+                <h3>Contribute</h3>
+                <p>palette.css is open source! <a href="https://github.com/EnesKeremAYDIN/palette.css" target="_blank">Star, fork, or contribute on GitHub</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Theme Showcase -->
+    <section class="theme-showcase">
+        <div class="container">
+            <h2>Theme Showcase</h2>
+            
+            <div class="showcase-grid">
+                <div class="showcase-item">
+                    <h3>Typography</h3>
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <p>This is a paragraph with <strong>bold text</strong> and <em>italic text</em>. You can also add <a href="#">links</a> and <code>inline code</code>.</p>
+                    <blockquote>This is a blockquote that demonstrates the styling.</blockquote>
+                </div>
+                
+                <div class="showcase-item">
+                    <h3>Form Elements</h3>
+                    <input type="text" placeholder="Text input">
+                    <input type="email" placeholder="Email input">
+                    <select>
+                        <option>Select option</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                    </select>
+                    <textarea placeholder="Textarea"></textarea>
+                    <button>Primary Button</button>
+                    <button class="btn-secondary">Secondary Button</button>
+                </div>
+                
+                <div class="showcase-item">
+                    <h3>Lists & Tables</h3>
+                    <ul>
+                        <li>Unordered list item 1</li>
+                        <li>Unordered list item 2</li>
+                        <li>Unordered list item 3</li>
+                    </ul>
+                    
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Header 1</th>
+                                <th>Header 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cell 1</td>
+                                <td>Cell 2</td>
+                            </tr>
+                            <tr>
+                                <td>Cell 3</td>
+                                <td>Cell 4</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="showcase-item">
+                    <h3>Code Blocks</h3>
+                    <pre><code>// This is a code block
+function example() {
+    console.log("Hello, palette.css!");
+    return "styled code";
+}</code></pre>
+                    
+                    <p>Inline <code>code</code> and <small>small text</small> examples.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>palette.css</h3>
+                    <p>A modular, theme-first CSS variable system that makes theming effortless.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="https://github.com/EnesKeremAYDIN/palette.css" target="_blank">GitHub</a></li>
+                        <li><a href="#usage">Documentation</a></li>
+                        <li><a href="https://github.com/EnesKeremAYDIN/palette.css/issues" target="_blank">Issues</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>License</h4>
+                    <p>MIT License - feel free to use in your projects!</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 palette.css. Made with ❤️ by <a href="https://eneskeremaydin.com.tr/" target="_blank">EnesKeremAYDIN</a> and the palette.css community.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Site JavaScript -->
+    <script src="scripts/site.js"></script>
+</body>
+</html> 

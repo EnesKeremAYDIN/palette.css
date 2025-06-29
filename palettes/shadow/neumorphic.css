@@ -1,0 +1,9 @@
+/* Neumorphic Shadow Palette */
+
+:root {
+  --shadow-sm: 2px 2px 4px rgba(0, 0, 0, 0.1), -2px -2px 4px rgba(255, 255, 255, 0.8);
+  --shadow-md: 4px 4px 8px rgba(0, 0, 0, 0.15), -4px -4px 8px rgba(255, 255, 255, 0.9);
+  --shadow-lg: 8px 8px 16px rgba(0, 0, 0, 0.2), -8px -8px 16px rgba(255, 255, 255, 1);
+  --shadow-xl: 12px 12px 24px rgba(0, 0, 0, 0.25), -12px -12px 24px rgba(255, 255, 255, 1);
+  --shadow-focus: 0 0 0 3px rgba(59, 130, 246, 0.5);
+} 

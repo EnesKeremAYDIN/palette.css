@@ -1,0 +1,6 @@
+/* None Animation Palette */
+
+:root {
+  --transition: none;
+  --button-active-transform: none;
+} 

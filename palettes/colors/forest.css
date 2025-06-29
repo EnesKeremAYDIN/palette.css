@@ -1,0 +1,46 @@
+/* Forest Color Palette */
+
+:root {
+  /* Base colors */
+  --bg: #f0fff4;
+  --text: #013220;
+  --text-muted: #2d5a3d;
+  --text-bold: #001a0f;
+  --text-emphasis: #004d26;
+  --heading: #001a0f;
+  
+  /* Primary colors */
+  --primary: #2e8b57;
+  --primary-hover: #1e5f3a;
+  --on-primary: #ffffff;
+  
+  /* Secondary colors */
+  --secondary: #6b8e23;
+  --secondary-hover: #556b2f;
+  --on-secondary: #ffffff;
+  
+  /* Success, warning, error colors */
+  --success: #228b22;
+  --warning: #daa520;
+  --error: #8b0000;
+  --info: #4682b4;
+  
+  /* Form elements */
+  --input-bg: #ffffff;
+  --input-text: #013220;
+  --border: #90ee90;
+  --border-width: 1px;
+  --border-width-lg: 4px;
+  
+  /* Code elements */
+  --code-bg: #e8f5e8;
+  --code-text: #006400;
+  
+  /* Table colors */
+  --table-header-bg: #e8f5e8;
+  --table-header-text: #013220;
+  
+  /* Link colors */
+  --link-decoration: underline;
+  --link-decoration-hover: none;
+} 

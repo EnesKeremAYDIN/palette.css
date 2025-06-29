@@ -1,0 +1,21 @@
+/* Tech Font Palette */
+
+:root {
+  --font-base: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
+  --font-heading: 'SF Pro Display', 'Segoe UI', 'Roboto', sans-serif;
+  --font-mono: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
+  
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-md: 1.125rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --font-weight-heading: 600;
+  --font-weight-button: 500;
+  
+  --line-height: 1.4;
+} 

@@ -1,0 +1,21 @@
+/* Fun Font Palette */
+
+:root {
+  --font-base: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', cursive;
+  --font-heading: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', cursive;
+  --font-mono: 'Courier New', 'Courier', monospace;
+  
+  --font-size-xs: 0.8rem;
+  --font-size-sm: 0.9rem;
+  --font-size-base: 1rem;
+  --font-size-md: 1.2rem;
+  --font-size-lg: 1.4rem;
+  --font-size-xl: 1.8rem;
+  
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --font-weight-heading: 600;
+  --font-weight-button: 500;
+  
+  --line-height: 1.6;
+} 

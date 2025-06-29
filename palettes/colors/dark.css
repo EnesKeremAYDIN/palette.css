@@ -1,0 +1,46 @@
+/* Dark Color Palette */
+
+:root {
+  /* Base colors */
+  --bg: #1a1a1a;
+  --text: #e5e5e5;
+  --text-muted: #a3a3a3;
+  --text-bold: #ffffff;
+  --text-emphasis: #f5f5f5;
+  --heading: #ffffff;
+  
+  /* Primary colors */
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+  --on-primary: #ffffff;
+  
+  /* Secondary colors */
+  --secondary: #6b7280;
+  --secondary-hover: #4b5563;
+  --on-secondary: #ffffff;
+  
+  /* Success, warning, error colors */
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --info: #06b6d4;
+  
+  /* Form elements */
+  --input-bg: #262626;
+  --input-text: #e5e5e5;
+  --border: #404040;
+  --border-width: 1px;
+  --border-width-lg: 4px;
+  
+  /* Code elements */
+  --code-bg: #262626;
+  --code-text: #f87171;
+  
+  /* Table colors */
+  --table-header-bg: #262626;
+  --table-header-text: #e5e5e5;
+  
+  /* Link colors */
+  --link-decoration: underline;
+  --link-decoration-hover: none;
+} 

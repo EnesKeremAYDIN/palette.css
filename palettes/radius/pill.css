@@ -1,0 +1,10 @@
+/* Pill Radius Palette */
+
+:root {
+  --radius-xs: 12px;
+  --radius-sm: 16px;
+  --radius-md: 20px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-full: 9999px;
+} 

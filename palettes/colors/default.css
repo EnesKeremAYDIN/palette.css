@@ -1,0 +1,46 @@
+/* Default Color Palette */
+
+:root {
+  /* Base colors */
+  --bg: #ffffff;
+  --text: #333333;
+  --text-muted: #666666;
+  --text-bold: #000000;
+  --text-emphasis: #1a1a1a;
+  --heading: #1a1a1a;
+  
+  /* Primary colors */
+  --primary: #007bff;
+  --primary-hover: #0056b3;
+  --on-primary: #ffffff;
+  
+  /* Secondary colors */
+  --secondary: #6c757d;
+  --secondary-hover: #545b62;
+  --on-secondary: #ffffff;
+  
+  /* Success, warning, error colors */
+  --success: #28a745;
+  --warning: #ffc107;
+  --error: #dc3545;
+  --info: #17a2b8;
+  
+  /* Form elements */
+  --input-bg: #ffffff;
+  --input-text: #333333;
+  --border: #dee2e6;
+  --border-width: 1px;
+  --border-width-lg: 4px;
+  
+  /* Code elements */
+  --code-bg: #f8f9fa;
+  --code-text: #e83e8c;
+  
+  /* Table colors */
+  --table-header-bg: #f8f9fa;
+  --table-header-text: #495057;
+  
+  /* Link colors */
+  --link-decoration: underline;
+  --link-decoration-hover: none;
+} 

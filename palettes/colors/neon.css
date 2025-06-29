@@ -1,0 +1,46 @@
+/* Neon Color Palette */
+
+:root {
+  /* Base colors */
+  --bg: #0a0a0a;
+  --text: #00ff00;
+  --text-muted: #00cc00;
+  --text-bold: #ffffff;
+  --text-emphasis: #ffff00;
+  --heading: #00ffff;
+  
+  /* Primary colors */
+  --primary: #ff00ff;
+  --primary-hover: #cc00cc;
+  --on-primary: #000000;
+  
+  /* Secondary colors */
+  --secondary: #00ffff;
+  --secondary-hover: #00cccc;
+  --on-secondary: #000000;
+  
+  /* Success, warning, error colors */
+  --success: #00ff00;
+  --warning: #ffff00;
+  --error: #ff0000;
+  --info: #0080ff;
+  
+  /* Form elements */
+  --input-bg: #1a1a1a;
+  --input-text: #00ff00;
+  --border: #00ff00;
+  --border-width: 1px;
+  --border-width-lg: 4px;
+  
+  /* Code elements */
+  --code-bg: #1a1a1a;
+  --code-text: #ff00ff;
+  
+  /* Table colors */
+  --table-header-bg: #1a1a1a;
+  --table-header-text: #00ffff;
+  
+  /* Link colors */
+  --link-decoration: underline;
+  --link-decoration-hover: none;
+} 

@@ -1,0 +1,46 @@
+/* Sunset Color Palette */
+
+:root {
+  /* Base colors */
+  --bg: #fff7ed;
+  --text: #7c2d12;
+  --text-muted: #a16207;
+  --text-bold: #451a03;
+  --text-emphasis: #92400e;
+  --heading: #451a03;
+  
+  /* Primary colors */
+  --primary: #f97316;
+  --primary-hover: #ea580c;
+  --on-primary: #ffffff;
+  
+  /* Secondary colors */
+  --secondary: #f59e0b;
+  --secondary-hover: #d97706;
+  --on-secondary: #ffffff;
+  
+  /* Success, warning, error colors */
+  --success: #16a34a;
+  --warning: #f59e0b;
+  --error: #dc2626;
+  --info: #0891b2;
+  
+  /* Form elements */
+  --input-bg: #ffffff;
+  --input-text: #7c2d12;
+  --border: #fed7aa;
+  --border-width: 1px;
+  --border-width-lg: 4px;
+  
+  /* Code elements */
+  --code-bg: #fef3c7;
+  --code-text: #b45309;
+  
+  /* Table colors */
+  --table-header-bg: #fef3c7;
+  --table-header-text: #7c2d12;
+  
+  /* Link colors */
+  --link-decoration: underline;
+  --link-decoration-hover: none;
+} 

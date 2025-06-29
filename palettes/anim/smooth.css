@@ -1,0 +1,6 @@
+/* Smooth Animation Palette */
+
+:root {
+  --transition: all 0.3s ease;
+  --button-active-transform: scale(0.98);
+} 

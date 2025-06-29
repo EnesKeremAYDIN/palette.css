@@ -1,0 +1,46 @@
+/* Ocean Color Palette */
+
+:root {
+  /* Base colors */
+  --bg: #f0f8ff;
+  --text: #1e3a8a;
+  --text-muted: #3b82f6;
+  --text-bold: #0f172a;
+  --text-emphasis: #1e40af;
+  --heading: #0f172a;
+  
+  /* Primary colors */
+  --primary: #0ea5e9;
+  --primary-hover: #0284c7;
+  --on-primary: #ffffff;
+  
+  /* Secondary colors */
+  --secondary: #6366f1;
+  --secondary-hover: #4f46e5;
+  --on-secondary: #ffffff;
+  
+  /* Success, warning, error colors */
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --info: #06b6d4;
+  
+  /* Form elements */
+  --input-bg: #ffffff;
+  --input-text: #1e3a8a;
+  --border: #bfdbfe;
+  --border-width: 1px;
+  --border-width-lg: 4px;
+  
+  /* Code elements */
+  --code-bg: #dbeafe;
+  --code-text: #1d4ed8;
+  
+  /* Table colors */
+  --table-header-bg: #dbeafe;
+  --table-header-text: #1e3a8a;
+  
+  /* Link colors */
+  --link-decoration: underline;
+  --link-decoration-hover: none;
+} 

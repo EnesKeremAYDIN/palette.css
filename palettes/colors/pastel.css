@@ -1,0 +1,46 @@
+/* Pastel Color Palette */
+
+:root {
+  /* Base colors */
+  --bg: #fefefe;
+  --text: #6b7280;
+  --text-muted: #9ca3af;
+  --text-bold: #374151;
+  --text-emphasis: #4b5563;
+  --heading: #374151;
+  
+  /* Primary colors */
+  --primary: #a78bfa;
+  --primary-hover: #8b5cf6;
+  --on-primary: #ffffff;
+  
+  /* Secondary colors */
+  --secondary: #fbbf24;
+  --secondary-hover: #f59e0b;
+  --on-secondary: #ffffff;
+  
+  /* Success, warning, error colors */
+  --success: #34d399;
+  --warning: #fbbf24;
+  --error: #f87171;
+  --info: #60a5fa;
+  
+  /* Form elements */
+  --input-bg: #ffffff;
+  --input-text: #6b7280;
+  --border: #e5e7eb;
+  --border-width: 1px;
+  --border-width-lg: 4px;
+  
+  /* Code elements */
+  --code-bg: #f3f4f6;
+  --code-text: #ec4899;
+  
+  /* Table colors */
+  --table-header-bg: #f3f4f6;
+  --table-header-text: #6b7280;
+  
+  /* Link colors */
+  --link-decoration: underline;
+  --link-decoration-hover: none;
+} 
