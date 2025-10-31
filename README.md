@@ -1,6 +1,6 @@
 # 🎨 palette.css
 
-A modular, theme-first CSS variable system that works with `data-*` attributes for effortless theming.
+Modular, theme-first CSS variable system that works with `data-*` attributes for effortless theming.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/EnesKeremAYDIN/palette.css)](https://github.com/EnesKeremAYDIN/palette.css/stargazers)
